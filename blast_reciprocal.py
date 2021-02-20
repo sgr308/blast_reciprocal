@@ -2,7 +2,7 @@
 import os, re, sys
 
 # Define output file.
-out_file = open("/blast_reciprocal_result.txt", "w+")
+out_file = open("blast_reciprocal_result.txt", "w+")
 
 # Import first blast file.
 blast_file_1 = open("blastresults_1.txt","r")
